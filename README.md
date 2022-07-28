@@ -57,7 +57,7 @@ char* decryptstr(char* str);
 函数功能:
 简易的加解密
 
-3.高精度整型 `hp_int`
+4. 高精度整型 `hp_int`
 
 声明一个高精度整型：
 
