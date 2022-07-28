@@ -4,6 +4,8 @@
 ## ** 更新: **
 ```
 power函数采用了新的算法更快了
+鸣谢:TakeOff0518
+GitHub账号:https://github.com/Takeoff0518
 ```
 ### `注意事项`
 ```
