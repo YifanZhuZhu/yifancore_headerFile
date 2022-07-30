@@ -29,14 +29,6 @@ int split(int n,int m);
 2.power函数
 即幂运算
 函数本体:
-```c
-//C语言
-long long power(int x,int y);
-```
-```cpp
-//C++
-long long power(int x,int y);
-```
 函数功能:
 计算x的y次方
 
