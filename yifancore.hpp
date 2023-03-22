@@ -61,7 +61,7 @@ char *decryptstr(char *__str)
 
 struct bigInt
 {
-	int __num[20110];
+	int __num[1005];
 	int __len;
 	char __op;
 	bigInt()
@@ -291,7 +291,7 @@ void bi_get(bigInt &__a)
 	std::cin >> __s1;
 	if (__s1[0] == '-')
 		__a.__op = '-', __s1.erase(0, 1);
-	for (int i = 1; i <= __s1.size(); i++)
+	for (unsigned int i = 1; i <= __s1.size(); i++)
 		__a.__num[i] = int(__s1[__s1.size() - i]) - '0';
 	__a.__len = __s1.size();
 }

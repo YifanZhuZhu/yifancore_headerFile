@@ -49,7 +49,7 @@ char* decryptstr(char* str);
 函数功能:
 简易的加解密
 
-4.高精度整型 `hp_int`（Only featured in C++）
+4.高精度整型 `bigInt`（Only featured in C++）
 
 声明一个高精度整型：
 
